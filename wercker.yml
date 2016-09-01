@@ -4,14 +4,6 @@ box: java
 build:
   steps:
     - script:
-      name: echo
-      code: |
-        echo 'Update theme'
-
-# defining the dev pipeline
-dev:
-  steps:
-    - script:
       name: gradle test
       code: |
         ./gradle test
