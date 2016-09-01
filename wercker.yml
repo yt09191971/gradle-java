@@ -1,10 +1,10 @@
 # docker box definition
 box: java
-#
-# # defining the dev pipeline
+
+# defining the dev pipeline
 dev:
   steps:
     - script:
       name: gradle test
       code: |
-        ./gradlew test
+        ./gradle test
