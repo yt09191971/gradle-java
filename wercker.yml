@@ -6,4 +6,4 @@ build:
     - script:
       name: gradle test
       code: |
-        ./gradle test
+        ./gradlew test
