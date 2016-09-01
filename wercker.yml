@@ -1,6 +1,13 @@
 # docker box definition
 box: java
 
+build:
+  steps:
+    - script:
+      name: echo
+      code: |
+        echo 'Update theme'
+
 # defining the dev pipeline
 dev:
   steps:
